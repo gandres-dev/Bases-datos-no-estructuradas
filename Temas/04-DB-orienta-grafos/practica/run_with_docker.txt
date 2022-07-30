@@ -1,0 +1,12 @@
+Para correr neo4j con docker existen 2 forma que son a traves del docker-compuse especificando ahi los puertos o descargando la imagen directamente en dockerhub
+
+1)
+docker-compose up
+
+2)
+# Instalacion por primera vez
+docker run --name cotenedor-neo -p 7474:7474 -p 7687:7687 -d neo4j
+
+# Una vez que tengas el contenedor creado
+
+

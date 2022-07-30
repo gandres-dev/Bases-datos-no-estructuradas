@@ -1,0 +1,12 @@
+# Cada instruccion RUN será una nueva layer para docker y esto impliacara
+# mayor peso en la imagen, por lo que unica mejor manera de reducir el 
+# peso en la imagenes no utilizr RUN, si no concaternar comaandos con &
+
+FROM ubuntu:focal
+
+RUN apt-get update && RUN apt-get install -y build-essential wget
+RUN wget download.redis.io/releases/redis-stable.tar.gz
+RUN tar -xzf redis-stable.tar.gz
+RUN cd redis-stable && make && make install
+
+ENTRYPOINT["redis-server"]

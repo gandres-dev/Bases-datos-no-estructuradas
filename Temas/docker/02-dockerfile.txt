@@ -1,0 +1,24 @@
+Docker file
+Una forma de hacer una imagen para poder crear un contendor
+
+Crear imagenes de una imagen que ya existe
+Pull a las imagenes para conseguirlas.
+FROM ubuntu/cassandra
+
+Todos los nuevos run conmienza la carpeta de trabajo.
+RUN
+
+Correr un docker file
+
+Contruye una imagen a partir de docker file
+Cuando se crea una imgen es posible ponerle un etiqueta
+de forma analoga a un contendro
+Al final le indicamos en donde se encuentra el Dockerfile
+docker build -t imagen-redis ./
+
+Se colocan los comandos que se va ejecutar
+ENTRY POINT [""]
+
+
+Crea un contenedro y corre el comando por defecto.
+docker run imagen-redis

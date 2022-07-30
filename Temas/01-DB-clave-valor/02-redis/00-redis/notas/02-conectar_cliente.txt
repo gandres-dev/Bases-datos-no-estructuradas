@@ -1,0 +1,13 @@
+1) Si queremos conectar un cliente a nuestro servidor de redis, necesitaremos
+cambiarle el entrypoint para usar la terminal del contenedor
+> docker run -it --entrypoint bash imagen_redis
+
+Una vez adentro podemos utilizar nuestro cliente
+$ redis-cli
+
+
+2) La segunda alternativa es indicarle al contenedor que queremos ejecutar un comando del contenedor
+> docker exec -it contenedor-redis redis-cli
+
+
+

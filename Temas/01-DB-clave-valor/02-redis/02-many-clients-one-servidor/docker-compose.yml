@@ -1,0 +1,20 @@
+version: "3.9"
+services:  
+
+  redis_servidor:
+    image: "mi-imagen-redis"
+
+  redis_cliente1:
+    image: "mi-imagen-redis"
+    entrypoint: ["bash"]
+    tty: true
+
+  redis_cliente2:
+    image: "mi-imagen-redis"
+    entrypoint: ["bash"]
+    tty: true
+
+  redis_cliente3:
+    image: "mi-imagen-redis"
+    entrypoint: ["bash"]
+    tty: true

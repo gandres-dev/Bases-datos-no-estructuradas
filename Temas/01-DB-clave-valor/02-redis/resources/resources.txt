@@ -1,0 +1,2 @@
+https://university.redis.com/courses/ru102py/
+https://www.youtube.com/watch?v=3WOfXRjYnGA&ab_channel=Redis

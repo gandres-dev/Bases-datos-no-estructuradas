@@ -1,0 +1,2 @@
+Esto es una configuración propio si se desea una configuración particular. En
+caso contrario, puede hacer pull de dockerhub.

@@ -1,0 +1,35 @@
+Crear un contendor en base a la imagen
+docker run --name nameContainer hello-world
+
+Muestra los contenedores activos
+docker ps
+
+Muestra todos los contenedores activos y inactivos
+docker ps -a
+
+Eliminar los contenedores que ya terminarons de ejecutar
+docker rm name
+
+Eliminar imagen
+docker rmi hello-world:latest
+
+Muestra las imagenes
+docker images
+
+docker run -it ubuntu bash
+
+-it adjuntalo en la mi misma terminal
+
+Arranca un contendor
+docker star nameContainer
+
+Ejecuta 
+docker exec -it nameContainer bash
+
+Elimnar un contenedor activo
+docker rm -f nameContainer
+
+Detener un contenedor
+docker stop nameContainer
+
+

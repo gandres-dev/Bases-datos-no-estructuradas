@@ -1,0 +1,30 @@
+Iniciar redis: 
+docker start contenedor_redis
+docker exec -it contenedor_redis redis-cli
+# Conocer el puerto donde esta corriendo el contenedor
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' contenedor_redis
+docker stop contenedor_redis
+
+Operaciones CRUD
+SET llave valor
+GET llave
+SET clase "bases de datos no estructuradas"
+DEL llave
+
+MSET llave1 valor2 llave2 valor3
+MGET llave1 llave2
+
+Transacciones
+MULTI
+SET
+SET
+SET
+EXEC
+
+
+Diccionario
+HSET 
+
+Listas
+
+Bases de datos orientadas a grafos

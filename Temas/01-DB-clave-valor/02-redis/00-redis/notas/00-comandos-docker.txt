@@ -1,0 +1,6 @@
+sudo systemctl start docker
+
+docker images
+docker ps -a
+
+docker rm contenedor

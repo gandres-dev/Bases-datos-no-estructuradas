@@ -1,0 +1,5 @@
+Playlist
+https://youtu.be/Jey504qdm-c
+
+Site web exercises
+https://katacoda.com/datastax/courses/cassandra-intro/

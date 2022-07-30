@@ -1,0 +1,14 @@
+docker start namecontainer
+docker exec -it nameContainer cassandra -R
+docker exec -it nameContainer cqlsh
+
+
+# Ver todas las tablas
+DESCRIBE TABLES;
+
+# Selecccionar base
+Use bdnosql
+
+
+
+

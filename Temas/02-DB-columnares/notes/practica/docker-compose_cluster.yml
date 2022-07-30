@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+    cliente:
+        image: "thirsty_wilbur"
+        tty: true
+
+    cassandra1:
+        image: "cassandra-cluster"
+        build: .
+
+    cassandra2:
+        image: "cassandra-cluster"
+
+    cassandra3:
+        image: "cassandra-cluster"
+

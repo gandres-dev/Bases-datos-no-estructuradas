@@ -1,0 +1,14 @@
+# El indicador -R permite que el usuario raíz ejecute Cassandra.
+# Ejecutar Casandra como usuario no root no necesita este indicador
+cassandra -R
+# -f Start the cassandra process in foreground. The default is to start as background process.
+# Es decir, si usamo C-c en foreground termina el proceso si es background no
+# lo termina.
+# https://docs.datastax.com/en/cassandra-oss/3.0/cassandra/tools/toolsCUtility.html
+cassandra -Rf
+
+# Checking status
+nodetool status
+
+# The status/state column in the output should report UN,
+# which stands for Up/Normal.

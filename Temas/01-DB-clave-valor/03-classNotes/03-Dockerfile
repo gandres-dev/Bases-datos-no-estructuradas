@@ -1,0 +1,8 @@
+FROM ubuntu:focal
+
+RUN apt-get update && RUN apt-get install -y build-essential wget
+RUN wget download.redis.io/releases/redis-stable.tar.gz
+RUN tar -xzf redis-stable.tar.gz
+RUN cd redis-stable && make && make install
+
+ENTRYPOINT["redis-server"]

@@ -1,0 +1,8 @@
+Para correr el docker composer
+Esto creara nuestra nuestrara nuestra imagen si no existe y creara un nuevo
+contenedor con las configuraciones establecidad en el.
+
+> docker-compose up
+
+Para limpiar todo lo que se ocupo (Implica contenedores y redes)
+> docker-compose down

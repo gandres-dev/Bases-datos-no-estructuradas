@@ -1,0 +1,13 @@
+
+Cualquier contenedor tiene una terminal en su interior
+
+Crea un contenedor con nombre de la imagen redis y arranca los comandos Entry point (comandos por defecto)
+> docker run --name contendor_redis redis
+
+Ejecuta un clinete en ese contenedor
+Adentro de ese contenedor vamos ejecutar ese instrucccion(comando)
+-it  Para indicarle que nuestra terminal se convierta en la terminal que 
+esta dentro del contenedor
+> docker exec -it contendor_redis redis-cli
+
+

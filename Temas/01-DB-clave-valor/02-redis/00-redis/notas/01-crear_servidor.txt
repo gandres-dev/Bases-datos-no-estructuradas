@@ -1,0 +1,14 @@
+Construimos nuestra imagen personalizada
+> docker build -t imagen-redis .
+
+Construiremos un contenedor en base a nuestra imagen creada, por defecto
+arranca el servidor-redis
+> docker run --name contenedor-redis imagen-redis      # Ejecutara el entrypoint y terminara
+
+> docker run --name contenedor-redis -it imagen-redis  # Interactivo en la misma terminal
+
+Crear contenedor y eliminar cuando termine
+>docker run --name contenedor-redis --rm imagen-redis
+
+Recordar que para volver a iniciar un contenedor existente usaremos
+> docker start contenedor-redis

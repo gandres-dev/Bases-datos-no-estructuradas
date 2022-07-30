@@ -1,0 +1,10 @@
+https://youtu.be/DOIWQddRD5M
+https://stackoverflow.com/questions/45471367/how-to-make-redis-dump-rdb-save-in-directory-when-daemonized
+
+https://www.google.com/search?q=used+as+a+database%2C+cache&sourceid=chrome&ie=UTF-8
+https://aws.amazon.com/es/caching/database-caching/
+https://www.google.com/search?q=memcached&sxsrf=APq-WBs6WD7UKaD3bHd2KaK4ZmxIpaPUcA%3A1644532993790&ei=AZUFYrPFL4_GkPIPz_aCuA0&oq=mem&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECAAQQzILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMggIABCABBCxAzIICAAQsQMQgwEyCwguEIAEEMcBEKMCMggIABCABBCxAzIICC4QgAQQsQM6BwgjEOoCECc6DgguEIAEELEDEMcBEKMCOhEILhCABBCxAxCDARDHARDRAzoECC4QJzoKCAAQsQMQgwEQQzoLCC4QgAQQxwEQ0QM6DgguEIAEEMcBENEDENQCSgQIQRgASgQIRhgAUABY_AVgzRRoAXABeACAAYoBiAH2ApIBAzAuM5gBAKABAbABCsABAQ&sclient=gws-wiz
+https://andreshevia.com/2011/02/13/el-milagro-de-la-arquitectura-de-facebook/
+https://es.wikipedia.org/wiki/Memcached
+https://cloud.google.com/appengine/docs/standard/python/memcache/examples?csw=1
+https://www.google.com/search?q=memcached&sxsrf=APq-WBvUmeyz24IwS9hVnFFLX1rhWFEsqA:1644533550886&source=lnms&sa=X&ved=2ahUKEwjVoPzwnPb1AhUbI0QIHZFOCpsQ_AUoAHoECAEQAg&biw=1920&bih=941&dpr=1

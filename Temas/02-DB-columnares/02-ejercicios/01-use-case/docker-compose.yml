@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+    cassandra:
+        image: "imagen-cassandra"
+        build: .
+        volumes:
+            - type: bind
+              source: .
+              target: "/source"
+        tty: true
+

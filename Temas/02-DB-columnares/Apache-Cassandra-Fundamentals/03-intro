@@ -1,0 +1,26 @@
+-- Ingresar como usuario root
+cassandra -R
+
+-- Cassandra Query Languague Shell
+cqlsh
+
+CREATE KEYSPACE killr_video WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+USE killr_video;
+
+CREATE TABLE users (
+	email TEXT PRIMARY KEY,
+	name TEXT,
+	age INT,
+	data_joined DATE
+);
+
+INSERT INTO users (email, name, age, data_joined) VALUES ('joe@gmail.com', 'joe', 25, '2020-01-01');
+
+INSERT INTO users (email, name, age, data_joined) VALUES ('jim@gmail.com', 'jim', 45, '2020-01-01');
+INSERT INTO users (email, name, age, data_joined) VALUES ('fer@gmail.com', 'fer', 55, '2020-01-01');
+INSERT INTO users (email, name, age, data_joined) VALUES ('mario@gmail.com', 'mario', 15, '2020-01-01');
+
+SELECT * FROM users WHERE email = 'joe@gmail.com';
+
+

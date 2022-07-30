@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+    neo4j:
+        image: "imagen-neo4j"
+        build: .
+        volumes:
+            - type: bind
+              source: .
+              target: "/source"
+        ports:
+            - 7474:7474
+            - 7687:7687
+
+        tty: true
+

@@ -1,0 +1,5 @@
+https://cassandra.apache.org/_/cassandra-basics.html
+https://cassandra.apache.org/_/quickstart.html
+https://cassandra.apache.org/doc/latest/
+
+https://levelup.gitconnected.com/python-logger-better-than-print-statements-ba453e512308

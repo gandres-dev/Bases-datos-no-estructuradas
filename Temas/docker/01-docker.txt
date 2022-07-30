@@ -1,0 +1,59 @@
+Docker
+Una imagen esa una base (Serie de instrucciones)
+
+Un contenedor se hace a partir de una imagen y puede compartir cosas que son la imagen
+
+De una sola imagen podemos sacar n contenedores
+
+
+Lo que tu corres son los contenedores
+---
+Ver todas las imagens
+docker images
+
+Muestra los contenedores que estan corriendo
+docker ps 
+
+Muestra los contenedores que no estan corriendo (All)
+docker ps -a
+
+Crea un contenedor y lo arranca
+(Asigna nombres aleatorios a los contenedores)
+docker run image
+
+Crea un contendor de una imagen con un nombre y lo corre
+docker run --name HolaMundo nameImage
+
+Empieza un contenedor 
+docker start contenedor
+
+Borra contenedores que ya no se estan ejecutando
+docker rm nameContainer
+
+Borrar imagen
+docker rmi nameImage
+
+-------------------------
+Las imagenes tiene ya una instruccion(comando) que se correra por defecto
+docker run hello-wordl
+
+Le decimos que el primer comando que se ejecute sea bash
+-it Adjunta la terminal en la misma termial para que no solo ejecute la
+terminal y termine.
+
+-it Ese contenedor amarralo a mi terminal que estoy corriendo.
+Cualquier interaccion que necesite a ese contenedor dirigela hacia amigo
+Mi terminal se convertira en el terminal de ese contenedor.
+     
+       Es es mi contenedor
+root  @    f02131221:
+
+docker run -it ubuntu bash
+
+Levanta un contenedor que no estea corriendo
+docker star naemContaineinr
+
+Ejecuta un proceso en un contendor que ya esta corrienddo
+Ayuda a ejecutar commandos adentro de un contenedor que este corriendo
+docker exec
+

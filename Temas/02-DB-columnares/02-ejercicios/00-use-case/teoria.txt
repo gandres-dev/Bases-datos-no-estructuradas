@@ -1,0 +1,13 @@
+
+
+-- Example
+-- Club sera nuestra partion key
+-- Por cada club tendra partion
+-- Si tenemos 10 judaroes por cada club tendremos y
+-- tenemos 12 clubes entonces
+
+-- 12 partions y cada partion va tener 10 rows data. 
+
+
+
+

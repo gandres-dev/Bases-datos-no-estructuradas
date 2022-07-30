@@ -1,0 +1,19 @@
+https://stackoverflow.com/questions/35400740/how-to-set-docker-mongo-data-volume
+
+https://stackoverflow.com/questions/44698004/how-to-store-mongodb-data-with-docker-compose
+
+
+Buena documentacion para docker-compose
+https://docs.docker.com/compose/compose-file/#volumes
+
+
+https://docs.docker.com/engine/reference/commandline/logs/
+
+https://www.freecodecamp.org/news/docker-mount-volume-guide-how-to-mount-a-local-directory/
+
+
+
+https://hub.docker.com/_/mongo
+
+
+

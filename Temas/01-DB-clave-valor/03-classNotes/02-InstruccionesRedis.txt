@@ -1,0 +1,24 @@
+docker run redis
+docker run --name contenedor_redis redis
+Esto instalará: redis-server y redis-cli
+
+Nos conectamos al servidor
+docker exec -it contenedor_redis redis-cli
+6379 puerto por defecto
+
+127.0.0.1:6379>
+
+Dockerfile
+Es la forma de hacer una imagen
+Una imagen es un instructuvo para poder generar un contenedor
+
+(A partir de una imagen que ya exista)
+FROM: punto de partida
+RUN
+
+-t : tag para la imagen
+docker build -t imagen-redis .
+
+docker run imagen-redis
+
+

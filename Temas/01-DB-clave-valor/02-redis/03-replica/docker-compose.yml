@@ -1,0 +1,15 @@
+version: "3.9"
+services:  
+
+  redis_servidor:
+    image: "mi-imagen-redis"
+
+  redis_replica:
+    image: "mi-imagen-redis"
+    command: ["--replicaof redis_servidor 6379"]
+
+  redis_cliente:
+    image: "mi-imagen-redis"
+    entrypoint: ["bash"]
+    tty: true
+

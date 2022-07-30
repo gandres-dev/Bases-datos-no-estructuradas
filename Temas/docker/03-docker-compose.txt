@@ -1,0 +1,60 @@
+
+Va a cambiar el entry point para que ejecute el comando bash en vez de redis
+docker run -t --entrypoint bash imagen-redis
+
+
+Copia los archivos dentro del contenedor
+Copy redis.conf
+
+
+docker compose
+Automatizar las cosas
+
+
+Un servicio
+Es un contenedor
+
+Para ejecutar el docker compose
+> docker-compose up
+
+docker ps
+Eliminar todo lo que levantamos
+> docker-compose down
+
+
+Cada servicio va a ser un contenedor
+
+
+Al colocar los contenedor en un solo docker compose de forma
+automatica se podran ver del uno al otro
+
+
+Si no lo hicieramos con docker-compose.yml
+Se tendria que levantar toda una red con docker
+
+
+Conectar al redis-cliente
+docker exec -it redis_redis_cliente_1 bash
+> root@asdf/ redis-cli indicarIPServidor
+
+> root@asdf/ redis-cli -h 192.23.1234
+> root@asdf/ redis-cli -h namaServicio
+> root@asdf/ redis-cli -h redis_servidor
+redis_servidor6379>
+
+Replica
+Replica la nodo maestro
+
+Cluster
+Los cluster dan servicions con la arquitectura p2p
+p2p dar servicio entre ellos para despues darselo al cliente
+
+De esta manera creamos dos contenedores y comunicandose entre ellos
+
+
+
+Por defecto cuando ponemos 
+> redis-cli 
+Tratara de ,conectar al servidor 127.0.0.1-6379
+
+

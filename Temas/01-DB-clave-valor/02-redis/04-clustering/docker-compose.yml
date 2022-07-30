@@ -1,0 +1,32 @@
+version: "3.9"
+services:  
+
+  redis_cluster1:
+    image: "mi-imagen-redis-cluster"
+    build: .
+    command: ["redis_cluster.conf"]      
+
+  redis_cluster2:
+    image: "mi-imagen-redis-cluster"
+    command: ["redis_cluster.conf"]      
+
+  redis_cluster3:
+    image: "mi-imagen-redis-cluster"
+    command: ["redis_cluster.conf"]      
+
+  redis_cluster4:
+    image: "mi-imagen-redis-cluster"
+    command: ["redis_cluster.conf"]      
+
+  redis_cluster5:
+    image: "mi-imagen-redis-cluster"
+    command: ["redis_cluster.conf"]      
+
+  redis_cluster6:
+    image: "mi-imagen-redis-cluster"
+    command: ["redis_cluster.conf"]      
+
+  redis_cliente:
+    image: "mi-imagen-redis-cluster"
+    entrypoint: ["bash"]
+    tty: true
